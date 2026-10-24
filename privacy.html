@@ -35,30 +35,39 @@
         <h1>Privacy Policy</h1>
         <p class="subtitle">Kilocalory</p>
 
-        <p><strong>Last updated:</strong> April 2, 2026</p>
+        <p><strong>Last updated:</strong> October 24, 2026</p>
 
         <h2>Overview</h2>
-        <p>Kilocalory is designed with your privacy in mind. The app stores all data locally on your device and does not collect, store, or transmit any personal information.</p>
+        <p>Kilocalory is designed with your privacy in mind. Your diary, weight logs and settings live on your iPhone. No sign-up, no email, no name. The only data that leaves the phone is what the optional AI photo analysis needs, described below.</p>
 
         <h2>Data Collection</h2>
-        <p>We do not collect any data. The app does not:</p>
+        <p>The app does not:</p>
         <p>
-            &bull; Collect personal information<br>
+            &bull; Ask for your name, email or any personal information<br>
             &bull; Track your usage or behavior<br>
-            &bull; Upload your food logs or health data to any server<br>
-            &bull; Use analytics or tracking services<br>
+            &bull; Use analytics, advertising or tracking services<br>
             &bull; Use cookies or similar technologies<br>
-            &bull; Share any data with third parties
+            &bull; Sell or share data with third parties for their own purposes
         </p>
 
+        <h2>AI Food Photo Analysis</h2>
+        <p>When you send a food photo for analysis (from the camera, the photo picker, or the optional gallery scan you turn on yourself), the photo is uploaded to our server (cala.4id.me) and passed to an AI vision model operated by Anthropic (Claude) to recognise the food and estimate weights and nutrition. To improve the estimates, the server also keeps a list of the products you have logged and the corrections you made to earlier photo results, and sends this list along with your photos. Photos are deleted from the server within 7 days; the product list stays while you use the feature and is replaced by the app on every sync. Anthropic processes the photo under its commercial terms and does not use it to train its models.</p>
+        <p>Before a gallery photo is uploaded, the app checks on the device that it shows food; photos of people, documents and screenshots stay on the phone. You can see what was kept back and what was sent in the Photo Queue screen, and you can take a photo back until it is analysed.</p>
+
+        <h2>Account and Subscription</h2>
+        <p>To count free photos and recognise your subscription, the app creates an anonymous identifier for your installation and stores it in the iPhone Keychain. It is a random number, not linked to your Apple ID, name or device serial. The subscription itself is handled by Apple; the app passes Apple's signed receipt to our server to confirm it. We never see your payment details.</p>
+
         <h2>Camera Access</h2>
-        <p>The app requests camera permission solely to scan product barcodes. No photos are taken, stored, or transmitted. The camera feed is processed in real-time on your device to detect barcodes only.</p>
+        <p>The app uses the camera to scan product barcodes and, when you choose, to photograph food for analysis. Barcode scanning is processed in real time on the device; nothing is stored or transmitted. A food photo you take is uploaded only when you send it.</p>
+
+        <h2>Photo Library Access</h2>
+        <p>If you enable the gallery scan, the app reads new photos in your library to find food. Only photos that pass the on-device food check are uploaded; everything else stays on the phone. You can turn the scan off at any time in the Photo Queue screen or in iOS Settings.</p>
 
         <h2>Network Requests</h2>
         <p>When you scan a barcode, the app sends the barcode number to a food database API to retrieve nutrition information. Only the barcode number is sent — no personal data, device identifiers, or location information is included in these requests.</p>
 
         <h2>On-Device Storage</h2>
-        <p>All your food entries, weight logs, and settings are stored locally on your iPhone. No account is required. If you delete the app, all data is permanently removed.</p>
+        <p>All your food entries, weight logs, and settings are stored locally on your iPhone. If you delete the app, that data is permanently removed. The anonymous installation identifier in the Keychain may survive a reinstall so that your free photos and subscription are recognised.</p>
 
         <h2>Children's Privacy</h2>
         <p>The app does not collect any data from anyone, including children under 13.</p>
